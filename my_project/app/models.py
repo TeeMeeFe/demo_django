@@ -22,7 +22,6 @@ class User(models.Model):
         max_length=100,
         help_text="Nombre completo del usuario."
     )
-
     email = models.EmailField(
         unique=True,
         help_text="Nombre del correo electrónico."
